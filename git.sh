@@ -13,6 +13,7 @@
 #      pero no forman parte del snapshoot.
 #	c) commit area: lugar donde se guardo un estado fijo e identificado del codigo en 
 #      los archivos que se estan siguiendo.
+#	d) Usar como password de root: database
 
 # Para inicializar el uso de git en un proyecto:------------------------------------- (1)
 #	a) En la carpeta del proyecto ejecutar:

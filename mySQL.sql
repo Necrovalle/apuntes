@@ -52,7 +52,11 @@ ALTER TABLE nombre_tabla DROP COLUMN nombre_columna;
 -- Para restablecer los valores de una tabal a cero usar:---------------------------- (7)
 TRUNCATE TABLE nmbre_tabla;
 
--- Comando de MariaDB para grabar un dato espesifico:-------------------------------- (8)
-UPDATE datos SET estado = 'ENC' WHERE id = 1;
+-- Para limpiar la ventana en linux usar CTRL + L------------------------------------ (8)
 
-	
+-- Para añadir un nuevo renglon en una tabla usar:----------------------------------- (9)
+INSERT INTO bitacora(usuario, fecha, t_inicio, t_final, equipo, sp)
+VALUES ("uno@cc.net", "25/06/2021", "16:00", "16:20", "Horno No1", 250);
+
+-- Para eliminar una tabla usar:----------------------------------------------------- (10)
+DROP TABLE nombre_de_la_tabla;
